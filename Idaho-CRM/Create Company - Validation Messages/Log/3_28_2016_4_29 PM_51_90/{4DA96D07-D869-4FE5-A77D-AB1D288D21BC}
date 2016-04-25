@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="42457.4791401042"/>
+					<Prp name="object bottom" type="I" value="495"/>
+					<Prp name="object left" type="I" value="235"/>
+					<Prp name="object top" type="I" value="461"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="337"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object name" type="S" value="Aliases.browser.IDAHOLogin.LoginpageContent.LoginContainer.panelRow.LoginSection.panelLoginSection.MemberloginPanel.LoginbuttonFormGroup.Loginbutton"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="click point y" type="I" value="478"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="440"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="date" type="D" value="42457.6874784606"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.IDAHOLogin.LoginpageContent.LoginContainer.panelRow.LoginSection.panelLoginSection.MemberloginPanel.LoginbuttonFormGroup.Loginbutton&#xA;(Sys.Browser(&quot;firefox&quot;).Page(&quot;http://stage-orders.asicentral.com/login?401&quot;).Panel(0).Section(0).Panel(0).Panel(0).Panel(0).Panel(0).Panel(&quot;login_section&quot;).Panel(&quot;memberLogin&quot;).Panel(4).Button(&quot;Login&quot;))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 6">
+			<Prp name="stacktext" type="S" value="Create_multiple_Companies_Save_Create_Another_TC028332()"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="stack beginning" type="I" value="3"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="date" type="D" value="42457.6881169444"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;body&gt;&lt;p&gt;An error occurred while accessing the &quot;ClickButton&quot; method or property of the &quot;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{28F2A664-300D-4490-9B0F-8BEFE3DE16F1}&quot;&gt;Savebutton&lt;/a&gt;&quot; object.&lt;br/&gt;The object or one of its parent objects was not found.&lt;/p&gt;&lt;h4&gt;Object Whose Method or Property Was Accessed&lt;/h4&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; noborder&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel.SavebuttonPullPanel.SaveBtnDropdown.Savebutton&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel.SavebuttonPullPanel.SaveBtnDropdown.Savebutton&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h4&gt;Object That Was Not Found&lt;/h4&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{EEA106ED-E9B8-4033-9D99-EC99F7E16C99}&quot;&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel&lt;/a&gt;&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;namemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{46340895-F769-4EC7-A569-D69328B42441}&quot;&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;Click the link above to view and configure mapping settings for the missing object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="42457.4791347917"/>
+					<Prp name="object bottom" type="I" value="416"/>
+					<Prp name="object left" type="I" value="235"/>
+					<Prp name="object top" type="I" value="382"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object name" type="S" value="Aliases.browser.IDAHOLogin.LoginpageContent.LoginContainer.panelRow.LoginSection.panelLoginSection.MemberloginPanel.PasswordFormGroup.Password"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="440"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="date" type="D" value="42457.6874716667"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Aliases.browser.IDAHOLogin.LoginpageContent.LoginContainer.panelRow.LoginSection.panelLoginSection.MemberloginPanel.PasswordFormGroup.Password"/>
+			<Prp name="message" type="S" value="The text 'Asiqa2016' was entered in the text editor."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value="Create_multiple_Companies_Save_Create_Another_TC028332()"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="42457.4791314583"/>
+					<Prp name="object bottom" type="I" value="342"/>
+					<Prp name="object left" type="I" value="235"/>
+					<Prp name="object top" type="I" value="308"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object name" type="S" value="Aliases.browser.IDAHOLogin.LoginpageContent.LoginContainer.panelRow.LoginSection.panelLoginSection.MemberloginPanel.Usernamepanel.Username"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="440"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="date" type="D" value="42457.6874679514"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Aliases.browser.IDAHOLogin.LoginpageContent.LoginContainer.panelRow.LoginSection.panelLoginSection.MemberloginPanel.Usernamepanel.Username"/>
+			<Prp name="message" type="S" value="The text '101574repo' was entered in the text editor."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="42457.4791265625"/>
+					<Prp name="object bottom" type="I" value="268"/>
+					<Prp name="object left" type="I" value="235"/>
+					<Prp name="object top" type="I" value="234"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object name" type="S" value="Aliases.browser.IDAHOLogin.LoginpageContent.LoginContainer.panelRow.LoginSection.panelLoginSection.MemberloginPanel.ASInumberpanel.AsiNumber"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="440"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="date" type="D" value="42457.6874644329"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Aliases.browser.IDAHOLogin.LoginpageContent.LoginContainer.panelRow.LoginSection.panelLoginSection.MemberloginPanel.ASInumberpanel.AsiNumber"/>
+			<Prp name="message" type="S" value="The text '101574' was entered in the text editor."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="stack beginning" type="I" value="4"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="stack end" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="date" type="D" value="42457.6882370255"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;body&gt;&lt;p&gt;An error occurred while accessing the &quot;ClickButton&quot; method or property of the &quot;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{502DC345-062E-4AB6-B9BE-0C9ED6A598E0}&quot;&gt;AddCompany&lt;/a&gt;&quot; object.&lt;br/&gt;The object or one of its parent objects was not found.&lt;/p&gt;&lt;h4&gt;Object Whose Method or Property Was Accessed&lt;/h4&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; noborder&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Aliases.browser.pageHttpStageOrdersWindow.ContentsectionCompany.CompaniesMainScreen.panelContainerContainerMainNgSco.panelPadWrapper.CompaniesHeader.ButtonPanel.AddCompany&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;NameMapping.Sys.browser.pageHttpStageOrdersWindow.ContentsectionCompany.CompaniesMainScreen.panelContainerContainerMainNgSco.panelPadWrapper.CompaniesHeader.ButtonPanel.AddCompany&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h4&gt;Object That Was Not Found&lt;/h4&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{B15AAD2A-07ED-4737-86EE-E5FE56C61DBE}&quot;&gt;Aliases.browser.pageHttpStageOrdersWindow.ContentsectionCompany.CompaniesMainScreen.panelContainerContainerMainNgSco&lt;/a&gt;&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;namemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{25CC21EE-A65A-4EEB-8BEC-A3E9575E2B18}&quot;&gt;NameMapping.Sys.browser.pageHttpStageOrdersWindow.ContentsectionCompany.CompaniesMainScreen.panelContainerContainerMainNgSco&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;Click the link above to view and configure mapping settings for the missing object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="stacktext" type="S" value="Create_multiple_Companies_Save_Create_Another_TC028332()"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="date" type="D" value="42457.6874583912"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="URL: http://stage-orders.asicentral.com/login?401&#xA;&#xA;Aliases.browser"/>
+			<Prp name="message" type="S" value="Navigating to the http://stage-orders.asicentral.com/login?401 page."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="42457.4792176042"/>
+					<Prp name="object bottom" type="I" value="277"/>
+					<Prp name="object left" type="I" value="1125"/>
+					<Prp name="object top" type="I" value="242"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1158"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageHttpStageOrdersWindow.ContentsectionCompany.CompaniesMainScreen.panelContainerContainerMainNgSco.panelPadWrapper.CompaniesHeader.ButtonPanel.AddCompany"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="click point y" type="I" value="259"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="1191"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="date" type="D" value="42457.6875711111"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageHttpStageOrdersWindow.ContentsectionCompany.CompaniesMainScreen.panelContainerContainerMainNgSco.panelPadWrapper.CompaniesHeader.ButtonPanel.AddCompany&#xA;(Sys.Browser(&quot;firefox&quot;).Page(&quot;http://stage-orders.asicentral.com/crm/companies&quot;).Section(0).Section(0).Panel(1).Panel(&quot;pad_wrapper&quot;).Panel(1).Panel(0).Button(0))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="stacktext" type="S" value="Create_multiple_Companies_Save_Create_Another_TC028332()"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="42457.4794841782"/>
+					<Prp name="object bottom" type="I" value="1381"/>
+					<Prp name="object left" type="I" value="132"/>
+					<Prp name="object top" type="I" value="337"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="712"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object name" type="S" value="Aliases.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="click point y" type="I" value="859"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="1292"/>
+				</Node>
+			</Node>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="date" type="D" value="42457.6878219676"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (580, 522) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel&#xA;(Sys.Browser(&quot;firefox&quot;).Page(&quot;http://stage-orders.asicentral.com/crm/companies/add&quot;).Section(0).Section(0).Panel(1).Panel(&quot;pad_wrapper&quot;).Panel(2).Form(&quot;form_crmForm&quot;).Panel(0))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="date" type="D" value="42457.6874067824"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;head&gt;&lt;style&gt;td{font-family: Courier New, Consolas, Segoe UI; font-size : 14;}&lt;/style&gt;&lt;/head&gt;											  &lt;body&gt;											  &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Browser:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Mozilla Firefox ver.45.0.1 (x86)&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Executable:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;C:\Program Files (x86)\Mozilla Firefox\firefox.exe&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td style=&quot;padding-right: 8px;&quot;&gt;&lt;b&gt;Command-line args:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;URL:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;http://stage-orders.asicentral.com/login?401&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="Mozilla Firefox was launched."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="date" type="D" value="42457.6878159954"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;body&gt;&lt;p&gt;An error occurred while accessing the &quot;SetText&quot; method or property of the &quot;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{356783E8-711C-4501-BF8D-AD5ADC4BBC74}&quot;&gt;CompanyTypeSelectiontextboxName&lt;/a&gt;&quot; object.&lt;br/&gt;The object or one of its parent objects was not found.&lt;/p&gt;&lt;h4&gt;Object Whose Method or Property Was Accessed&lt;/h4&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; noborder&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope.CompanyAddpanelContainer.CompanyAddPadWrapper.CompanyAddNgScope.CompanyAddCrmform.CompanyAddpanelRow.companyAddpanelCol.CompanyNameFormGroup.CompanyTypeSelectiontextboxName&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope.CompanyAddpanelContainer.CompanyAddPadWrapper.CompanyAddNgScope.CompanyAddCrmform.CompanyAddpanelRow.companyAddpanelCol.CompanyNameFormGroup.CompanyTypeSelectiontextboxName&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h4&gt;Object That Was Not Found&lt;/h4&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{6724E19F-215E-437F-816F-E8639C579C13}&quot;&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope&lt;/a&gt;&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;namemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{76E1EFCB-C758-4EDD-83E3-A3AEBAE0B962}&quot;&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;Click the link above to view and configure mapping settings for the missing object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="date" type="D" value="42457.6876976157"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;body&gt;&lt;p&gt;An error occurred while accessing the &quot;ClickButton&quot; method or property of the &quot;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{87B857EB-0C86-41E7-8FD7-F82A067BD5F0}&quot;&gt;Savebutton&lt;/a&gt;&quot; object.&lt;br/&gt;The object or one of its parent objects was not found.&lt;/p&gt;&lt;h4&gt;Object Whose Method or Property Was Accessed&lt;/h4&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; noborder&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope.CompanyAddpanelContainer.CompanyAddPadWrapper.CompanyAddNgScope.CompanyAddCrmform.CompanyAddpanelRow.companyAddpanelCol.CompanyAddpanelPullRight.CompanyAddBtnDropdown.Savebutton&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope.CompanyAddpanelContainer.CompanyAddPadWrapper.CompanyAddNgScope.CompanyAddCrmform.CompanyAddpanelRow.companyAddpanelCol.CompanyAddpanelPullRight.CompanyAddBtnDropdown.Savebutton&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h4&gt;Object That Was Not Found&lt;/h4&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{6724E19F-215E-437F-816F-E8639C579C13}&quot;&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope&lt;/a&gt;&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;namemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{76E1EFCB-C758-4EDD-83E3-A3AEBAE0B962}&quot;&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;Click the link above to view and configure mapping settings for the missing object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42457.6891977546"/>
+			</Node>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="date" type="D" value="42457.6879417593"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;body&gt;&lt;p&gt;An error occurred while accessing the &quot;ClickButton&quot; method or property of the &quot;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{28F2A664-300D-4490-9B0F-8BEFE3DE16F1}&quot;&gt;Savebutton&lt;/a&gt;&quot; object.&lt;br/&gt;The object or one of its parent objects was not found.&lt;/p&gt;&lt;h4&gt;Object Whose Method or Property Was Accessed&lt;/h4&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; noborder&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel.SavebuttonPullPanel.SaveBtnDropdown.Savebutton&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel.SavebuttonPullPanel.SaveBtnDropdown.Savebutton&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h4&gt;Object That Was Not Found&lt;/h4&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{EEA106ED-E9B8-4033-9D99-EC99F7E16C99}&quot;&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel&lt;/a&gt;&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;namemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{46340895-F769-4EC7-A569-D69328B42441}&quot;&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;Click the link above to view and configure mapping settings for the missing object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="stacktext" type="S" value="Create_multiple_Companies_Save_Create_Another_TC028332()"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="item 2">
+			<Prp name="stacktext" type="S" value="Create_multiple_Companies_Save_Create_Another_TC028332()"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="stack beginning" type="I" value="5"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="stack end" type="I" value="5"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="date" type="D" value="42457.688355544"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;body&gt;&lt;p&gt;An error occurred while accessing the &quot;ClickButton&quot; method or property of the &quot;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{87B857EB-0C86-41E7-8FD7-F82A067BD5F0}&quot;&gt;Savebutton&lt;/a&gt;&quot; object.&lt;br/&gt;The object or one of its parent objects was not found.&lt;/p&gt;&lt;h4&gt;Object Whose Method or Property Was Accessed&lt;/h4&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; noborder&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope.CompanyAddpanelContainer.CompanyAddPadWrapper.CompanyAddNgScope.CompanyAddCrmform.CompanyAddpanelRow.companyAddpanelCol.CompanyAddpanelPullRight.CompanyAddBtnDropdown.Savebutton&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope.CompanyAddpanelContainer.CompanyAddPadWrapper.CompanyAddNgScope.CompanyAddCrmform.CompanyAddpanelRow.companyAddpanelCol.CompanyAddpanelPullRight.CompanyAddBtnDropdown.Savebutton&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h4&gt;Object That Was Not Found&lt;/h4&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{6724E19F-215E-437F-816F-E8639C579C13}&quot;&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope&lt;/a&gt;&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;namemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{76E1EFCB-C758-4EDD-83E3-A3AEBAE0B962}&quot;&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;Click the link above to view and configure mapping settings for the missing object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{5C6B297E-3F69-4162-8AB5-50A49DA45939}"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="Create_multiple_Companies_Save_Create_Another_TC028332()"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="stack beginning" type="I" value="6"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="picture" type="S" value="Picture6.png"/>
+			<Prp name="stack end" type="I" value="6"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="date" type="D" value="42457.6884742014"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;body&gt;&lt;p&gt;An error occurred while accessing the &quot;SetText&quot; method or property of the &quot;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{356783E8-711C-4501-BF8D-AD5ADC4BBC74}&quot;&gt;CompanyTypeSelectiontextboxName&lt;/a&gt;&quot; object.&lt;br/&gt;The object or one of its parent objects was not found.&lt;/p&gt;&lt;h4&gt;Object Whose Method or Property Was Accessed&lt;/h4&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; noborder&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope.CompanyAddpanelContainer.CompanyAddPadWrapper.CompanyAddNgScope.CompanyAddCrmform.CompanyAddpanelRow.companyAddpanelCol.CompanyNameFormGroup.CompanyTypeSelectiontextboxName&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope.CompanyAddpanelContainer.CompanyAddPadWrapper.CompanyAddNgScope.CompanyAddCrmform.CompanyAddpanelRow.companyAddpanelCol.CompanyNameFormGroup.CompanyTypeSelectiontextboxName&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h4&gt;Object That Was Not Found&lt;/h4&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{6724E19F-215E-437F-816F-E8639C579C13}&quot;&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope&lt;/a&gt;&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;namemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{76E1EFCB-C758-4EDD-83E3-A3AEBAE0B962}&quot;&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.CompanyAddSectionScope&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;Click the link above to view and configure mapping settings for the missing object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Create_multiple_Companies_Save_Create_Another_TC028332()"/>
+			<Prp name="line no" type="I" value="16"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="342"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="object name" type="S" value="Aliases.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1292"/>
+					<Prp name="version" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="1381"/>
+					<Prp name="click point x" type="I" value="137"/>
+					<Prp name="datetime" type="D" value="42457.4805646991"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="132"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="337"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="42457.6889009606"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="remarks" type="S" value="A click at point (5, 5) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel&#xA;(Sys.Browser(&quot;firefox&quot;).Page(&quot;http://stage-orders.asicentral.com/crm/companies/add&quot;).Section(0).Section(0).Panel(1).Panel(&quot;pad_wrapper&quot;).Panel(2).Form(&quot;form_crmForm&quot;).Panel(0))"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="picture" type="S" value="Picture8.png"/>
+			<Prp name="date" type="D" value="42457.6891977546"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack beginning" type="I" value="8"/>
+			<Prp name="stack end" type="I" value="8"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;body&gt;&lt;p&gt;An error occurred while accessing the &quot;ClickButton&quot; method or property of the &quot;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{28F2A664-300D-4490-9B0F-8BEFE3DE16F1}&quot;&gt;Savebutton&lt;/a&gt;&quot; object.&lt;br/&gt;The object or one of its parent objects was not found.&lt;/p&gt;&lt;h4&gt;Object Whose Method or Property Was Accessed&lt;/h4&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; noborder&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel.SavebuttonPullPanel.SaveBtnDropdown.Savebutton&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel.SavebuttonPullPanel.SaveBtnDropdown.Savebutton&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h4&gt;Object That Was Not Found&lt;/h4&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{EEA106ED-E9B8-4033-9D99-EC99F7E16C99}&quot;&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel&lt;/a&gt;&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;namemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{46340895-F769-4EC7-A569-D69328B42441}&quot;&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;Click the link above to view and configure mapping settings for the missing object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="picture" type="S" value="Picture7.png"/>
+			<Prp name="date" type="D" value="42457.6890208102"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack beginning" type="I" value="7"/>
+			<Prp name="stack end" type="I" value="7"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;body&gt;&lt;p&gt;An error occurred while accessing the &quot;ClickButton&quot; method or property of the &quot;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{28F2A664-300D-4490-9B0F-8BEFE3DE16F1}&quot;&gt;Savebutton&lt;/a&gt;&quot; object.&lt;br/&gt;The object or one of its parent objects was not found.&lt;/p&gt;&lt;h4&gt;Object Whose Method or Property Was Accessed&lt;/h4&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; noborder&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel.SavebuttonPullPanel.SaveBtnDropdown.Savebutton&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel.SavebuttonPullPanel.SaveBtnDropdown.Savebutton&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h4&gt;Object That Was Not Found&lt;/h4&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Alias:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;lnamemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{EEA106ED-E9B8-4033-9D99-EC99F7E16C99}&quot;&gt;Aliases.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel&lt;/a&gt;&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name mapping item:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;namemapping://{E1178481-3A25-42B0-8019-8172ADD95A72}.{46340895-F769-4EC7-A569-D69328B42441}&quot;&gt;NameMapping.Sys.browser.AddCompanymasterWindow.CompanycontentSection.sectionNgScope.panelContainerContainerMainNgSco.CreateCompanySection.CompanyPanel.CreateCompanyForm.CompanyPanel.SaveButtonPanel&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;Click the link above to view and configure mapping settings for the missing object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Create_multiple_Companies_Save_Create_Another_TC028332()"/>
+			<Prp name="line no" type="I" value="18"/>
+		</Node>
+		<Prp name="perfcounterslength" type="I" value="1"/>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>
